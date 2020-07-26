@@ -7,7 +7,7 @@ import java.util.Scanner;
  * This class holds up method
  * to print a particular car specification
  * according to user input with the car model
- * name
+ * name. By using Switch case & static methods
  */
 public class _4_CarModelsData_2 {
 
