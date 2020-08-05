@@ -10,6 +10,8 @@ public class TestFish {
 //		I like to bite		
 		f1.greeting();
 //		I like to hunt
+		// f1.length(); - not accessed as length method is specific to only shark class
+		// f1.colour(); - not accessed as colour method is specific to only shark class
 		System.out.println("-----------------------");
 		System.out.println("-----------------------");		
 		Shark f2 = new Shark();
