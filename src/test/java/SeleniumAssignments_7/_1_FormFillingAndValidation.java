@@ -1,4 +1,4 @@
-package SeleniumAssignments._2;
+package SeleniumAssignments_7;
 
 import java.util.concurrent.TimeUnit;
 
@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class _1_FormFillingAndValidation {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 
@@ -41,7 +41,7 @@ public class _1_FormFillingAndValidation {
 		String[] text = nameText.split(":");
 		String[] email = emailText.split(":");
 		
-		System.out.println("User's Name is : " + text[1] + " " + "User's Email ID is : " + email[1]);
+		System.out.println("User's Name is : " + text[1] + " "+ "\n" + "User's Email ID is : " + email[1]);
 
 		if (text[1].equals("Harry Joe") && email[1].equals("harryjoe@gmail.com")) {
 
@@ -52,6 +52,10 @@ public class _1_FormFillingAndValidation {
 			System.out.println("Incorrect");
 
 		}
+		
+		Thread.sleep(5000);
+		
+		driver.quit();
 
 	}
 

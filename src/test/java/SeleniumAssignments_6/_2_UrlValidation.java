@@ -1,4 +1,4 @@
-package SeleniumAssignments_1;
+package SeleniumAssignments_6;
 
 import java.util.concurrent.TimeUnit;
 

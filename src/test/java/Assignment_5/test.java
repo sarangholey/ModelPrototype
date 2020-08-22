@@ -1,4 +1,4 @@
-package Strings;
+package Assignment_5;
 
 public class test {
 	public static void main(String[] args) {

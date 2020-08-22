@@ -1,4 +1,4 @@
-package Strings;
+package Assignment_5;
 
 public class _3_StringManupulations {
 
